@@ -1,6 +1,7 @@
 const readline = require('readline-sync')
+const separador = require('sbd')
 
-function robot() {
+function chat() {
     function recebeMensagem() {
         return readline.question('@Eu: ')
     }
@@ -10,4 +11,9 @@ function robot() {
     enviaMensagem(recebeMensagem())
 }
 
-robot()
+function sendRequest()
+{
+	chat.recebeMensagem()
+}
+
+chat()
