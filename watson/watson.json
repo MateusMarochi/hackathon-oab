@@ -1,18 +1,5 @@
-curl -X POST -u "apikey:LKAd-_Nl8ybH1XSkInTPg0KwYiDsHc4PJfkBhEcfvMXj" \
-"/v1/analyze?version=2019-07-12" \
---header "Content-Type: application/json" \
---data '{
-  "url": "http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver",
-  "features": {
-    "sentiment": {},
-    "categories": {},
-    "concepts": {},
-    "entities": {},
-    "keywords": {}
-  }
-}'
-
 {
+  "apikey": "LKAd-_Nl8ybH1XSkInTPg0KwYiDsHc4PJfkBhEcfvMXj",
   "iam_apikey_description": "Auto-generated for key 4d3408eb-8415-46dc-92d4-a4fb6bf710e6",
   "iam_apikey_name": "Auto-generated service credentials",
   "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
